@@ -1,0 +1,60 @@
+{
+    "sku": {
+        "name": "Premium_LRS",
+        "tier": "Premium"
+    },
+    "kind": "BlockBlobStorage",
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject/providers/Microsoft.Storage/storageAccounts/salesadls",
+    "name": "salesadls",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-03-27T20:12:49.4460236Z",
+            "key2": "2024-03-27T20:12:49.4460236Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-03-27T20:12:49.4460236Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-03-27T20:12:49.4460236Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-03-27T20:12:49.2272709Z",
+        "primaryEndpoints": {
+            "dfs": "https://salesadls.dfs.core.windows.net/",
+            "web": "https://salesadls.z13.web.core.windows.net/",
+            "blob": "https://salesadls.blob.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}
