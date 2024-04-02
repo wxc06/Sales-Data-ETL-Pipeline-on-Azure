@@ -1,0 +1,18 @@
+{
+    "kind": "v12.0",
+    "properties": {
+        "administratorLogin": "reese",
+        "version": "12.0",
+        "state": "Ready",
+        "fullyQualifiedDomainName": "etlserver0326.database.windows.net",
+        "privateEndpointConnections": [],
+        "minimalTlsVersion": "1.2",
+        "publicNetworkAccess": "Enabled",
+        "restrictOutboundNetworkAccess": "Disabled"
+    },
+    "location": "eastus",
+    "tags": {},
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject/providers/Microsoft.Sql/servers/etlserver0326",
+    "name": "etlserver0326",
+    "type": "Microsoft.Sql/servers"
+}
