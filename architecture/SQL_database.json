@@ -1,0 +1,38 @@
+{
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic",
+        "capacity": 5
+    },
+    "kind": "v12.0,user",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 2147483648,
+        "status": "Online",
+        "databaseId": "e5439ec2-1035-46a9-a1ed-e284b4dccd29",
+        "creationDate": "2024-03-27T02:32:00.753Z",
+        "currentServiceObjectiveName": "Basic",
+        "requestedServiceObjectiveName": "Basic",
+        "defaultSecondaryLocation": "westus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "earliestRestoreDate": "2024-03-27T03:43:13Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "Basic",
+            "tier": "Basic",
+            "capacity": 5
+        },
+        "currentBackupStorageRedundancy": "Local",
+        "requestedBackupStorageRedundancy": "Local",
+        "maintenanceConfigurationId": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "availabilityZone": "NoPreference"
+    },
+    "location": "eastus",
+    "tags": {},
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject/providers/Microsoft.Sql/servers/etlserver0326/databases/salesdb",
+    "name": "salesdb",
+    "type": "Microsoft.Sql/servers/databases"
+}
