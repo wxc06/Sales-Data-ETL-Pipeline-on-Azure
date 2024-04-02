@@ -1,0 +1,74 @@
+{
+    "properties": {
+        "managedResourceGroupId": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/databricks-rg-salesdatabricks-iwe5owit6t64s",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": false
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "publicIpName": {
+                "type": "String",
+                "value": "nat-gw-public-ip"
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstoragesawfabkbk4edu"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_GRS"
+            },
+            "vnetAddressPrefix": {
+                "type": "String",
+                "value": "10.139"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "68055807-ae54-4086-a5ae-92643905080c",
+            "puid": "1003200367C93871",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "68055807-ae54-4086-a5ae-92643905080c",
+            "puid": "1003200367C93871",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "940902140508455",
+        "workspaceUrl": "adb-940902140508455.15.azuredatabricks.net",
+        "createdDateTime": "2024-03-27T01:52:48.6310318Z"
+    },
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject/providers/Microsoft.Databricks/workspaces/salesdatabricks",
+    "name": "salesdatabricks",
+    "type": "Microsoft.Databricks/workspaces",
+    "sku": {
+        "name": "trial"
+    },
+    "location": "eastus",
+    "tags": {}
+}
