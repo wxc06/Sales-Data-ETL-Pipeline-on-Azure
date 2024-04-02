@@ -1,1 +1,10 @@
-
+{
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject",
+    "name": "ETLProject",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}
