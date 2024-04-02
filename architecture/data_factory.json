@@ -1,0 +1,25 @@
+{
+    "name": "salesDataFactory0326",
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/etlproject/providers/Microsoft.DataFactory/factories/salesdatafactory0326",
+    "type": "Microsoft.DataFactory/factories",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "createTime": "2024-03-27T02:36:42.4036978Z",
+        "version": "2018-06-01",
+        "factoryStatistics": {
+            "totalResourceCount": 0,
+            "maxAllowedResourceCount": 0,
+            "factorySizeInGbUnits": 0,
+            "maxAllowedFactorySizeInGbUnits": 0
+        },
+        "publicNetworkAccess": "Enabled"
+    },
+    "eTag": "\"e500cfbd-0000-0100-0000-6603863a0000\"",
+    "location": "eastus",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "8d0d2d50-babd-44fe-b869-0da6f60e7e53",
+        "tenantId": "485693eb-feb0-4a45-abec-411587655d08"
+    },
+    "tags": {}
+}
