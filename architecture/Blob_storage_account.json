@@ -1,0 +1,73 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/1c3156ce-3e81-49d4-babb-57c1972ac2e9/resourceGroups/ETLProject/providers/Microsoft.Storage/storageAccounts/sales0326",
+    "name": "sales0326",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-03-27T01:16:59.6898376Z",
+            "key2": "2024-03-27T01:16:59.6898376Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "hnsOnMigrationInProgress": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-03-27T01:16:59.8617106Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-03-27T01:16:59.8617106Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-03-27T01:16:59.4241941Z",
+        "primaryEndpoints": {
+            "dfs": "https://sales0326.dfs.core.windows.net/",
+            "web": "https://sales0326.z13.web.core.windows.net/",
+            "blob": "https://sales0326.blob.core.windows.net/",
+            "queue": "https://sales0326.queue.core.windows.net/",
+            "table": "https://sales0326.table.core.windows.net/",
+            "file": "https://sales0326.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westus",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://sales0326-secondary.dfs.core.windows.net/",
+            "web": "https://sales0326-secondary.z13.web.core.windows.net/",
+            "blob": "https://sales0326-secondary.blob.core.windows.net/",
+            "queue": "https://sales0326-secondary.queue.core.windows.net/",
+            "table": "https://sales0326-secondary.table.core.windows.net/"
+        }
+    }
+}
